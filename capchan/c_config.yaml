@@ -1,0 +1,17 @@
+projects:
+  - New Model 
+  - Start PoC
+  - Help Page
+
+classes:
+  - Pre-Defined
+  - Custom
+
+classes_PreDef:
+  - Numbers
+  - Uppercase Letters
+  - Lowercase Letters
+
+image_SPath:
+  - Test against folder of images
+  - Test against single image

@@ -1,0 +1,5 @@
+questionary
+pyyaml
+numpy
+tensorflow
+pillow

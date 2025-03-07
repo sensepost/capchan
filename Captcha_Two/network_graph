@@ -1,0 +1,15 @@
+digraph {
+	0 [label=conv2d]
+	1 [label=max_pooling2d]
+	2 [label=conv2d_1]
+	3 [label=max_pooling2d_1]
+	4 [label=flatten]
+	5 [label=dense]
+	6 [label=dense_1]
+	conv2d -> max_pooling2d
+	max_pooling2d -> conv2d_1
+	conv2d_1 -> max_pooling2d_1
+	max_pooling2d_1 -> flatten
+	flatten -> dense
+	dense -> dense_1
+}
