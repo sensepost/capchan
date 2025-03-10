@@ -41,7 +41,7 @@ python3 ImageDetermine.py --split_images_folder ~/Captcha_One/ --data_folder Ima
 python3 ImageGet.py -s domain.local -v --debug
 python3 ImageSplit.py --image_path image.png
 python3 hex2png.py 
-./bashmyheadin.sh 
+./bashywashy.sh 
 ```
 
 
@@ -68,12 +68,12 @@ Project structure of main script and other resources used to complete [challenge
 ├── model_graph.png
 ├── network_graph
 ├── nyaHowAc.py 
-└── bashmyheadinpls.sh
+└── bashywasher.sh
 ```
 
 Remeber to change `dir paths` for argparse and manually change desired image output files for getting test/val data. Main script:
 ```
-./bashmyheadinpls.sh "python3 nyasomething.py -s domain.local -v --debug" 15
+./bashywasher.sh "python3 nyasomething.py -s domain.local -v --debug" 15
 python3 nyamove.py 
 python3 nyamodel.py
 
