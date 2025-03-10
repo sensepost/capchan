@@ -1,16 +1,30 @@
 # capchan
 
-### Making a tool to solve Captcha, hopefully made simple
+### Tool to solve CAPTCHA
 
 ![Alt text](src/cap_PreV.png)
 
-* Creates model based on provided greyscale images
+* Creates and trains a model based on provided greyscale images
+* Uses greyscale model againts other images to detemine image contents
 
-![Alt text](src/cap_POC.png)
+### Installation:
+```
+python3 -m venv capchan
+source capchan/bin/activate
+pip install --upgrade pip
+pip install -r requirements.txt 
+```
 
-* Uses greyscale model againts other images as guess
+Depending on Python Version, Machine Architecture and Hardware, install the specific TensorFlow package from https://www.tensorflow.org/install/pip#package_location
+```
+pip install --upgrade https://storage.googleapis.com/tensorflow/versions/*.whl
+```
+Docker Options:
+https://www.tensorflow.org/install/docker
 
 ![Alt text](src/cap_model.png)
+
+![Alt text](src/cap_POC.png)
 
 ## CAPTCHA Forest and Image_Classification
 
