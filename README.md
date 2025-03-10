@@ -1,7 +1,21 @@
-# CAPTCHA and Image_Classification
+# capchan
 
-## Captcha_One
-Project structure of main script and other resources used to complete challenge:
+### Making a tool to solve Captcha, hopefully made simple
+
+![Alt text](src/cap_PreV.png)
+
+* Creates model based on provided greyscale images
+
+![Alt text](src/cap_POC.png)
+
+* Uses greyscale model againts other images as guess
+
+![Alt text](src/cap_model.png)
+
+## CAPTCHA Forest and Image_Classification
+
+### Captcha_One
+Project structure of main script and other resources used to complete [challenge](https://ctftime.org/task/7507):
 ```
 .
 ├── szizzleIMON.py
@@ -31,8 +45,8 @@ python3 hex2png.py
 ```
 
 
-## Captcha_Two
-Project structure of main script and other resources used to complete challenge:
+### Captcha_Two
+Project structure of main script and other resources used to complete [challenge](https://ctftime.org/task/7508):
 ```
 .
 ├── szizzleIMONGHARD.py
@@ -73,18 +87,3 @@ For Captcha_Two you will need a folder called Raw/ to place images farmed. Two m
 `Data/A/*.png`, `Val/A/*.png`, `Raw/*.png` and model.h5
 
 If you have more than 10 000+ images total, then you're doing something right. `image.png`, `output.txt` and `split_images_<number>.png` will be made from the scripts.
-
-# capchan
-
-### Making a tool to solve Captcha, hopefully made simple
-
-![Alt text](src/cap_PreV.png)
-
-## Current
-![Alt text](src/cap_POC.png)
-
-* Creates model based on provided greyscale images
-* Uses greyscale model againts other images as guess
-
-![Alt text](src/cap_model.png)
-
