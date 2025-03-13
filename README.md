@@ -2,7 +2,7 @@
 
 ### Tool to solve CAPTCHA
 
-![Alt text](src/cap_PreV.png)
+![Alt text](images/cap_PreV.png)
 
 * Creates and trains a model based on provided greyscale images
 * Uses greyscale model againts other images to detemine image contents
@@ -22,9 +22,9 @@ pip install --upgrade https://storage.googleapis.com/tensorflow/versions/*.whl
 Docker Options:
 https://www.tensorflow.org/install/docker
 
-![Alt text](src/cap_model.png)
+![Alt text](images/cap_model.png)
 
-![Alt text](src/cap_POC.png)
+![Alt text](images/cap_POC.png)
 
 ## CAPTCHA Forest and Image_Classification
 
