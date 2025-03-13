@@ -5,7 +5,7 @@
 ![Alt text](images/cap_PreV.png)
 
 * Creates and trains a model based on provided greyscale images
-* Uses greyscale model againts other images to detemine image contents
+* Uses greyscale model against other images to determine image contents
 
 ### Installation:
 ```
@@ -44,7 +44,7 @@ Project structure of main script and other resources used to complete [challenge
 ├── hex2png.py
 └── bashywashy.sh
 ```
-Remeber to change `dir paths` for argparse and other scripts. Main script:
+Remember to change `dir paths` for argparse and other scripts. Main script:
 ```
 python3 szizzleIMON.py -s domain.local -v --debug
 ```
