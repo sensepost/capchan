@@ -216,7 +216,7 @@ def s_project():
         print("capchan says: ", class_tot)
 
     elif projects == 'Help Page':
-        print('https://blogLINK.link')
+        print('https://sensepost.com/blog/2025/capchan-solving-captcha-with-image-classification/')
     else:
         print('bye bye')
 
